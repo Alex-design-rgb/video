@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Sharing Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            background: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            display: block;
+            float: left;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        main {
+            padding: 2rem;
+        }
+        .video {
+            margin-bottom: 2rem;
+        }
+        .video h3 {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Video Sharing Website</h1>
+        <p>Share and enjoy amazing videos!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Upload Video</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h2>Featured Videos</h2>
+        
+        <!-- Video 1 -->
+        <div class="video">
+            <h3>Video Title 1</h3>
+            <video controls width="600">
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Description of the first video.</p>
+        </div>
+        
+        <!-- Video 2 -->
+        <div class="video">
+            <h3>Video Title 2</h3>
+            <video controls width="600">
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Description of the second video.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Video Sharing Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
